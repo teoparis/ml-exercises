@@ -1,10 +1,30 @@
-# Excercise-Machine-Learning
-There are tutorials for the machine learning exam in this repository.
+# Machine Learning — Exercises
 
-the first exercise is on decision trees: the goal is to build a classifier based on decision trees, which after training on the Iris dataset, produces a confusion matrix on 3 different labels. to evaluate the results various tests were carried out, varying the depth of the search and the number of minimum nodes generated.
+University exercises covering core supervised and unsupervised ML algorithms. Each exercise is a self-contained Jupyter Notebook.
 
-the second exercise is on the K-nn algorithm: the goal is to compare the prediction results obtained from the decision trees and the nearest k-neighbors on the Iris data set.
+## Exercises
 
-the third exercise is on the K-means and DB-scan algorithm: the goal is to determine if the two algorithms with statistical metrics obtain a good quantitative evaluation of the clusters in the three different datasets.
+| # | Notebook | Algorithm | Dataset | Task |
+|---|----------|-----------|---------|------|
+| **1** | `Esercizio1-decisionTree.ipynb` | Decision Tree | Iris | Classification, confusion matrix, depth/min-nodes tuning |
+| **2** | `Esercizio2-knn.ipynb` | K-Nearest Neighbors | Iris | Compare KNN vs Decision Tree predictions |
+| **3** | `Esercizio3-kmeans.ipynb` | K-Means + DBSCAN | 3 datasets | Clustering evaluation with statistical metrics |
+| **4** | `Esercizio4-twitter.ipynb` | Naive Bayes | Twitter emotions | Bernoulli vs Multinomial NB, Joy vs Sadness classification |
 
-the fourth exercise is on the Naive bayes method: the goal is to compare two models for probabilistic modeling of categorical data: Bernoulli multivariate and multinomial on a data set. We adopt a dataset on Twitter messages tagged with emotions (Joy vs Sadness). for the evaluation, the accuracy was calculated with the use of some statistical tests.
+## Tech Stack
+
+- **Python 3** + **Jupyter Notebook**
+- **scikit-learn** (DecisionTreeClassifier, KNeighborsClassifier, KMeans, DBSCAN, GaussianNB, BernoulliNB)
+- **NumPy** / **Pandas**
+- **Matplotlib** for plots and confusion matrices
+
+## Setup
+
+```bash
+pip install scikit-learn numpy pandas matplotlib jupyter
+jupyter notebook
+```
+
+---
+
+*University exercises — Machine Learning course, 2021*
