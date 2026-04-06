@@ -1,4 +1,4 @@
-# Machine Learning — Exercises
+# Machine Learning: Exercises
 
 University exercises covering core supervised and unsupervised ML algorithms. Each exercise is a self-contained Jupyter Notebook.
 
@@ -27,4 +27,4 @@ jupyter notebook
 
 ---
 
-*University exercises — Machine Learning course, 2021*
+*University exercises, Machine Learning course, 2021*
